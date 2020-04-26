@@ -11,7 +11,7 @@
 </head>
 
 <body>
-    <nav class="nav ">
+    <nav class="nav">
         <div class="nav__container">
             <h1 class="nav__logo">
                 <spam class="nav__logo-color">Acme</spam> Web Deisgn
@@ -36,7 +36,18 @@
         </section>
     </nav>
     <header class="subscribe-bar__service-container">
+        <section class="subscribe-bar">
+            <div class="subscribe-bar__container">
+                <h2 class="subscribe-bar__description">Subdcribe to our newsletter</h2>
+                <form action="GET" class="subscribe-bar__form">
+                    <input placeholder="Enter Email..." type="email" name="email" required class="subscribe-bar__input"
+                        autocomplete="off" />
+                    <button class="subscribe-bar__button" formenctype="multipart/form-data"
+                        type="submit">Subscribe</button>
+                </form>
+            </div>
 
+        </section>
     </header>
 
     <footer class="footer">
