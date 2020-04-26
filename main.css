@@ -71,7 +71,6 @@ body {
     margin-top: 90px;
     position: relative;
     background: center / cover url(img/header-bg.jpg);
-    background-attachment: fixed;
     height: 550px;
 
 }
@@ -202,6 +201,10 @@ body {
     text-align: center;
     line-height: 100px;
 }
+
+
+
+
 
 /*---------   madia query   ----------*/
 
