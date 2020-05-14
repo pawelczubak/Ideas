@@ -30,7 +30,7 @@ section:before {
 
 }
 
-section:after {
+/* section:after {
     content: '';
     position: absolute;
     top: 0;
@@ -41,7 +41,7 @@ section:after {
     z-index: 1000;
     mix-blend-mode: color;
 
-}
+} */
 
 section img {
     position: absolute;
@@ -56,10 +56,17 @@ section img {
 #text {
     position: relative;
     color: #ffffff;
+    text-align: center;
     font-size: 10em;
     z-index: 1;
 }
 
 #road {
     z-index: 2;
+}
+
+@media screen and (max-width: 620px) {
+    #text {
+        font-size: 5em;
+    }
 }
