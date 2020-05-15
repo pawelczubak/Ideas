@@ -40,7 +40,6 @@ section:before {
     background: #0a2a43;
     z-index: 1000;
     mix-blend-mode: color;
-
 } */
 
 section img {
@@ -69,4 +68,9 @@ section img {
     #text {
         font-size: 5em;
     }
+}
+@media screen and (orientation: landscape) {
+    #text {
+        font-size: 5em;
+    } 
 }
