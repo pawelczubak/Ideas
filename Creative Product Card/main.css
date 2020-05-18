@@ -12,12 +12,12 @@ body {
     background: #131313;
 }
 
-.container {
+.cards__container {
     position: relative;
 
 }
 
-.container .card {
+.card {
     position: relative;
     width: 320px;
     height: 450px;
@@ -26,7 +26,7 @@ body {
     overflow: hidden;
 }
 
-.container .card:before {
+.card:before {
     position: absolute;
     content: '';
     top: 0;
@@ -39,11 +39,11 @@ body {
 
 }
 
-.container .card:hover:before {
+.card:hover:before {
     clip-path: circle(300px at 80% -20%);
 }
 
-.container .card:after {
+.card:after {
     position: absolute;
     content: 'Nike';
     top: 30%;
@@ -54,7 +54,7 @@ body {
     color: rgba(255, 255, 255, 0.02);
 }
 
-.container .card .imgBx {
+.card__img-box {
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
@@ -64,12 +64,12 @@ body {
     transition: 0.5s;
 }
 
-.container .card:hover .imgBx {
+.card:hover .card__img-box {
     top: 0%;
     transform: translateY(0%);
 }
 
-.container .card .imgBx img {
+.card__img {
     position: absolute;
     top: 50%;
     left: 50%;
@@ -77,7 +77,7 @@ body {
     width: 270px;
 }
 
-.container .card .contentBx {
+.card__content-box {
     position: absolute;
     bottom: 0;
     width: 100%;
@@ -87,19 +87,19 @@ body {
     z-index: 10;
 }
 
-.container .card:hover .contentBx {
+.card:hover .card__content-box {
     height: 210px;
 }
 
-.container .card .contentBx h2 {
+.card__content-header {
     position: relative;
     font-weight: 600;
     letter-spacing: 1px;
     color: #ffffff;
 }
 
-.container .card .contentBx .size,
-.container .card .contentBx .color {
+.card .card__content-variable1,
+.card .card__content-variable2 {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -109,20 +109,20 @@ body {
     visibility: hidden;
 }
 
-.container .card:hover .contentBx .size {
+.card:hover .card__content-variable1 {
     opacity: 1;
     visibility: visible;
     transition-delay: 0.5s;
 }
 
-.container .card:hover .contentBx .color {
+.card:hover .card__content-variable2 {
     opacity: 1;
     visibility: visible;
     transition-delay: 0.6s;
 }
 
-.container .card .contentBx .size h3,
-.container .card .contentBx .color h3 {
+.card__content-variable1 h3,
+.card__content-variable2 h3 {
     color: #ffffff;
     font-weight: 300;
     font-size: 14px;
@@ -131,7 +131,7 @@ body {
     margin-right: 10px;
 }
 
-.container .card .contentBx .size span {
+.card__content-variable1 span {
     width: 26px;
     height: 26px;
     text-align: center;
@@ -147,11 +147,11 @@ body {
     cursor: pointer;
 }
 
-.container .card .contentBx .size span:hover {
+.card__content-variable1 span:hover {
     background: #9bdc28;
 }
 
-.container .card .contentBx .color span {
+.card__content-variable2 span {
     width: 20px;
     height: 20px;
     background: #ffff00;
@@ -160,19 +160,19 @@ body {
     cursor: pointer;
 }
 
-.container .card .contentBx .color span:nth-child(2) {
+.card__content-variable2 span:nth-child(2) {
     background: #9dbc28;
 }
 
-.container .card .contentBx .color span:nth-child(3) {
+.card__content-variable2 span:nth-child(3) {
     background: #03a9f4;
 }
 
-.container .card .contentBx .color span:nth-child(4) {
+.card__content-variable2 span:nth-child(4) {
     background: #e91e63;
 }
 
-.container .card .contentBx a {
+.card__button {
     display: inline-block;
     padding: 10px 20px;
     background: #ffffff;
@@ -186,7 +186,7 @@ body {
     transition: 0.5s;
 }
 
-.container .card:hover .contentBx a {
+.card:hover .card__button {
     opacity: 1;
     transform: translateY(0px);
     transition-delay: 0.75s;
