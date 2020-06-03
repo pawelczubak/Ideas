@@ -20,3 +20,4 @@ Place with the ideas found on the internet
 9. [Glowing Social Media Buttons](https://pawelczubak.github.io/Ideas/Glowing%20Social%20Media%20Buttons/index.html)
 10. [Parallax Scrolling Effect](https://pawelczubak.github.io/Ideas/Parallax%20Scrolling%20Effect/index.html)
 11. [Ripple Animation Effect](https://pawelczubak.github.io/Ideas/Ripple%20Animation%20Effect/index.html)
+12. [Animated Eyes Fallow Mouse Cursor](https://pawelczubak.github.io/Ideas/Animated_Eyes_Fallow_Mouse_Cursor/index.html)
