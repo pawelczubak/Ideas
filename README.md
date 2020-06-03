@@ -21,3 +21,4 @@ Place with the ideas found on the internet
 10. [Parallax Scrolling Effect](https://pawelczubak.github.io/Ideas/Parallax%20Scrolling%20Effect/index.html)
 11. [Ripple Animation Effect](https://pawelczubak.github.io/Ideas/Ripple%20Animation%20Effect/index.html)
 12. [Animated Eyes Fallow Mouse Cursor](https://pawelczubak.github.io/Ideas/Animated_Eyes_Fallow_Mouse_Cursor/index.html)
+13. [Particles.js](https://pawelczubak.github.io/Ideas/Particles.js/index.html)
