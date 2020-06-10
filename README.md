@@ -23,3 +23,4 @@ Place with the ideas found on the internet
 12. [Animated Eyes Fallow Mouse Cursor](https://pawelczubak.github.io/Ideas/Animated_Eyes_Fallow_Mouse_Cursor/index.html)
 13. [Particles.js](https://pawelczubak.github.io/Ideas/Particles.js/index.html)
 14. [CSS Liquid Button](https://pawelczubak.github.io/Ideas/CSS_Liquid_Button/index.html)
+15. [Animated Sliding Menu](https://pawelczubak.github.io/Ideas/Animated_Sliding_Menu/index.html)
