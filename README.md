@@ -25,3 +25,4 @@ Place with the ideas found on the internet
 14. [CSS Liquid Button](https://pawelczubak.github.io/Ideas/CSS_Liquid_Button/index.html)
 15. [Animated Sliding Menu](https://pawelczubak.github.io/Ideas/Animated_Sliding_Menu/index.html)
 16. [SVG Animation Text](https://pawelczubak.github.io/Ideas/SVG_Animation_Text/index.html)
+17. [Comet Effects on Mousemove](https://pawelczubak.github.io/Ideas/Comet_Effects_on_Mousemove/index.html)
