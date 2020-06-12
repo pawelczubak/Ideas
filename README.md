@@ -26,3 +26,4 @@ Place with the ideas found on the internet
 15. [Animated Sliding Menu](https://pawelczubak.github.io/Ideas/Animated_Sliding_Menu/index.html)
 16. [SVG Animation Text](https://pawelczubak.github.io/Ideas/SVG_Animation_Text/index.html)
 17. [Comet Effects on Mousemove](https://pawelczubak.github.io/Ideas/Comet_Effects_on_Mousemove/index.html)
+18. [Responsive Slider](https://pawelczubak.github.io/Ideas/Responsive_Slider/index.html)
